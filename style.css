@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BhuTuka Expanded One', cursive;
+    color: aqua;
+}
+.box {
+    width: 100%;
+    height: 70vh;
+    background-image: url(/background.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container_nav {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 3, 3, 0.889);
+    
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 0 20px 10px;
+}
+.container_nav a{
+ text-decoration: none;
+ color: #000;
+ font-weight: 400;
+ letter-spacing: 2px;
+ font-size: 15px;
+ margin-left: 10px;
+ border-right: 1px solid #000;
+ padding-right: 5px;
+}
+
+.container_nav a:last-child{
+    border-right: none;
+   
+}
+.container_nav a:hover{
+    background-color: #000;
+    color: white;
+    border-radius: 10%;
+    padding: 10px;
+}
+.animation{
+    width: 100%;
+    height: 40vh;
+    padding: 180px 0 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animation h1 {
+    font-size: 1em;
+    color: #fff;
+}
+.auto-type {
+    position: static;
+    color: red;
+}
+.uebermich {
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    background-color: red;
+}
+.uebermich_container {
+   
+border-bottom: 1px solid #000;
+margin: 5px 90px 0 90px;
+transition: ease-in 2s;
+    
+}
+.uebermich_container h2 {
+    color: #fff;
+    padding: 10px;
+    
+
+}
+
+.section {
+    
+  text-align: center;
+    
+}
+.content {
+    box-shadow: 15px 15px 15px 5px rgba(0, 0, 0, 0.692);
+    border-radius: 12px 12px 12px;
+    margin: 10px 10px 30px 30px;
+    padding: 10px;
+}
+.content h3 {
+    padding: 5px;
+    color: #000;
+}
+.content p {
+    color: black;
+}
+
