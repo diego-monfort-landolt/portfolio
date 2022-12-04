@@ -92,6 +92,10 @@ transition: ease-in 2s;
   text-align: center;
     
 }
+.section img {
+    width: 30%;
+   
+}
 .content {
     box-shadow: 15px 15px 15px 5px rgba(0, 0, 0, 0.692);
     border-radius: 12px 12px 12px;
@@ -105,4 +109,7 @@ transition: ease-in 2s;
 .content p {
     color: black;
 }
+
+
+
 
